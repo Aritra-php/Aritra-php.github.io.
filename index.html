@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio_Phase 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbd52f7397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-----Header--------->
+
+    <div id="header">
+
+        <div class="navigation">
+            <nav>
+                <p><span class="highlight">A</span>ritra.</p>
+                <ul id="showmenu">
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Projects</a></li>
+                    <li><a href="#section4">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <div id="img">
+            <img src="Images/background.png" class="img-right">
+            <div class="header-text">
+                <p>Software <span class="highlight1">Engineer</span></p>
+                <h2>Hi! I am <span class="highlight1">Aritra Ghosh</span><br>From India </h2>
+            </div>
+        </div>
+
+     
+       
+    </div>
+<!------About------->
+    <div id="about">
+        <section id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="Images/About.jpeg">
+                </div>
+                <div class="col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hii there !!
+
+                        With a background in Information Technology, i have also found my love for deep diving into the world of product and data, and the interrelation between the two. Also with a profound interest in Web(both frontend and backend) i have found a sweet spot of my own interest which helps in driving growth and innovation. I also have a keen interest in hardcore real world based problem solving programming
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Knowledge</span><br>Java, JavaScript, SQL, HTML/CSS </li>
+                            <li><span>Conceptual Knowledge</span><br>DBMS, OOPS, Data Structure, Problem Solving,Product Management, KPI Implementation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>July 2024-Present</span><br><span1>Cognizant Technology Solution</span1><br>Programmer Analyst Trainee</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br><span1>SRM University of Science and Technology</span1><br>B.Tech in Information Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+<!-------Projects-------->
+
+    <div id="Projects">
+        <section id="section3">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="project-list">
+                <div class="work">
+                    <img src="Images/Project 1.png">
+                    <div class="layer">
+                        <h3>Employee Management System</h3>
+                        <p>Developed a console-based Employee Management System using principles of Java and OOPS concepts which allows efficient management of employee's data including functionalities to add, view, update, delete and sort employee by department</p>
+                        <a href="https://github.com/Aritra-php/Employee-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Project 2.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>Developed a dynamic Tic Tac Toe game, integrated game logic for player's turn, win detection and draw conditions with a responsive user experience</p>
+                        <a href="https://github.com/Aritra-php/Tic-Tac-Toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Project 3.png">
+                    <div class="layer">
+                        <h3>Simon Say Game</h3>
+                        <p>Developed an interactive Simon Say game using JS, HTML and CSS. Implemented features like random color sequence, user input validation and score tracking</p>
+                        <a href="https://github.com/Aritra-php/SimonSay"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden">
+                    <img src="Images/Project 4.png">
+                    <div class="layer">
+                        <h3>Blinkit AOV</h3>
+                        <p>Worked on the problem statement on why Blinkit's AOV was on the lower side and ways for it to increase</p>
+                        <a href="Images/NL - Blinkit.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden">
+                    <img src="Images/Project 5.png">
+                    <div class="layer">
+                        <h3>Netflix Feature Adoption Rate</h3>
+                        <p>Worked on the problem statement on why some feature's adoption rate of Netlix was on the lower side and ways for it to increase </p>
+                        <a href="Images/NL-Netfix.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden">
+                    <img src="Images/Project 6.png">
+                    <div class="layer">
+                        <h3>Pawsperous</h3>
+                        <p>Building an animal care product from scratch</p>
+                        <a href="Images/NL_Pawsperous.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button id="btn">Show More</button>
+        </div>
+    </section>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-------Contact Me------->
+    <div id="contact">
+        <section id="section4">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-regular fa-envelope"></i>aritra239@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9547568955</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aritra-ghosh-392302199/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Aritra-php"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/Resume_AritraGhosh.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Type Your Name Here" required>
+                        <input type="text" name="Email" placeholder="Type Your Email Here" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169 Made with <i class="fa-solid fa-heart"></i> by Aritra Ghosh</p>
+        </div>
+    </section>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwv7R2wD6UAvm_oanUiALHijmOWpYP15V_pciFLDJH9X2vgiipyz0GyaYp9pS8OXAzovA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+               document.getElementById("msg").innerHTML='<i class="fa-solid fa-circle-check"></i> Hi! Got Your Message, Will reach out to you.'
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</body>
+</html>
